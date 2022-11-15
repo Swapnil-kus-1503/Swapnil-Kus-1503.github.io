@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Card from "./Card";
-
+import GitHubCalendar from "react-github-calender";
 const Projects = () => {
   return (
     <ProjectsContainer>
@@ -30,6 +30,18 @@ const Projects = () => {
           link_three_text="Github"
         />
       </Grid>
+      <GitHub>
+      <img width={"450px"} src="https://github-readme-streak-stats.herokuapp.com/?user=swapnil-kus-1503" />
+      <img width={"450px"} src="https://github-readme-stats.vercel.app/api?username=swapnil-kus-1503&count_private=true&show_icons=true" />
+      {/* <GitHubCalendar
+        username="swapnil-kus-1503"
+        blockSize={15}
+        blockMargin={5}
+        backgroundColor="white"
+        color="crimson"
+        fontSize={16}
+      /> */}
+      </GitHub>
     </ProjectsContainer>
   );
 };
@@ -71,6 +83,39 @@ const Grid = styled.div`
   display: grid;
   grid-template-columns: 49% 49%;
   grid-gap: 1%;
+
+  @media (max-width: 1120px) {
+    width: 100%;
+    margin: auto;
+  }
+  @media (max-width: 850px) {
+    grid-template-columns: 100%;
+  }
+  @media (max-width: 385px) {
+    margin-left: -2rem;
+  }
+  @media (max-width: 340px) {
+    margin-left: -3rem;
+  }
+
+  justify-content: center;
+`;
+
+const GitHub = styled.div`
+  color: ${(props) => props.theme.cardText};
+  box-sizing: border-box;
+  padding: 2rem;
+  
+
+  width: 100%;
+
+  @media (max-width: 40rem) {
+    padding: 1.5rem;
+  }
+
+  display: grid;
+  grid-template-columns: 49% 49%;
+  grid-gap: 5%;
 
   @media (max-width: 1120px) {
     width: 100%;
