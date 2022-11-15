@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.89654885.css",
-    "main.js": "/static/js/main.ebfdd009.js",
+    "main.js": "/static/js/main.f0fe8437.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Profile.jpg": "/static/media/Profile.8407d6a2c32530547992.jpg",
     "static/media/Funcorp.PNG": "/static/media/Funcorp.079e225106870e8b3a9d.PNG",
@@ -9,11 +9,11 @@
     "static/media/Swapnil_Kushwaha_Resume.pdf": "/static/media/Swapnil_Kushwaha_Resume.2a8907504bf3acbc524f.pdf",
     "index.html": "/index.html",
     "main.89654885.css.map": "/static/css/main.89654885.css.map",
-    "main.ebfdd009.js.map": "/static/js/main.ebfdd009.js.map",
+    "main.f0fe8437.js.map": "/static/js/main.f0fe8437.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.89654885.css",
-    "static/js/main.ebfdd009.js"
+    "static/js/main.f0fe8437.js"
   ]
 }
