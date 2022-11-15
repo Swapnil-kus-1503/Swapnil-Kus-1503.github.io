@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Card from "./Card";
 import GitHubCalendar from "react-github-calender";
+import Card from "./Card";
+import GitHubCal from "./GithubCal";
 const Projects = () => {
   return (
     <ProjectsContainer>
@@ -33,15 +34,8 @@ const Projects = () => {
       <GitHub>
       <img width={"450px"} src="https://github-readme-streak-stats.herokuapp.com/?user=swapnil-kus-1503" />
       <img width={"450px"} src="https://github-readme-stats.vercel.app/api?username=swapnil-kus-1503&count_private=true&show_icons=true" />
-      {/* <GitHubCalendar
-        username="swapnil-kus-1503"
-        blockSize={15}
-        blockMargin={5}
-        backgroundColor="white"
-        color="crimson"
-        fontSize={16}
-      /> */}
       </GitHub>
+      <GitHubCal />
     </ProjectsContainer>
   );
 };
